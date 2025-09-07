@@ -1,0 +1,333 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bogdan's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Images/me2.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Poppins:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <h1>Bogdan's Portfolio</h1>
+        </div>
+        <button
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li>
+              <a href="#home" class="nav-link"
+                ><img src="Images/home.png" alt="Home" class="nav-icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link"
+                ><img src="Images/about.png" alt="About" class="nav-icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#projects" class="nav-link"
+                ><img src="Images/projects.png" alt="Projects" class="nav-icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link"
+                ><img src="Images/contact.png" alt="Contact" class="nav-icon"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/MarioBogdan11"
+                target="_blank"
+                class="nav-link"
+                ><img src="Images/github.png" alt="GitHub" class="nav-icon"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/Mario.Cristian.Bogdan"
+                target="_blank"
+                class="nav-link"
+                ><img src="Images/Facebook.png" alt="Facebook" class="nav-icon"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://instagram.com/bogdan_mario_"
+                target="_blank"
+                class="nav-link"
+                ><img
+                  src="Images/instagram.png"
+                  alt="Instagram"
+                  class="nav-icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link"
+                ><img src="Images/location.png" alt="Location" class="nav-icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link"
+                ><img src="Images/romania.png" alt="Romania" class="nav-icon"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Home Section -->
+      <section id="home" class="home-section reveal">
+        <div class="container">
+          <div class="profile-container">
+            <h1 class="hero-title">Hey, I’m Bogdan</h1>
+            <h2 class="hero-subtitle">
+              Game Show Host · Full-Stack Developer · Mobile Developer
+            </h2>
+            <p class="hero-tags" aria-label="Roles">GSH • FSD • MD</p>
+            <div class="profile-image-wrapper">
+              <img
+                src="Images/me.png"
+                onerror="this.src='Images/me2.png'"
+                alt="Bogdan"
+                class="profile-image"
+              />
+              <div class="profile-overlay">
+                <div class="overlay-chip">
+                  <img
+                    src="Images/location.png"
+                    alt="Location"
+                    class="overlay-icon"
+                  />
+                  <span>Bucharest, Romania</span>
+                  <img
+                    src="Images/romania.png"
+                    alt="Romania flag"
+                    class="overlay-flag"
+                  />
+                </div>
+              </div>
+            </div>
+            <a href="#skills" class="hero-cta">Explore My Work</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section reveal">
+        <div class="container">
+          <h2 class="section-title underline">About Me</h2>
+          <div class="about-grid">
+            <div class="about-media">
+              <img src="Images/about.png" alt="About icon" />
+            </div>
+            <div class="about-text">
+              <p>
+                My name is Bogdan, I’m a
+                <span class="hl">Game Show Host/TV Presenter</span> and also a
+                <span class="hl">Full-Stack Developer</span>.
+              </p>
+              <p>
+                I love coding and I’m currently working on a
+                <span class="hl">sleep calculator app</span>.
+              </p>
+              <p>
+                I built the
+                <a
+                  href="https://beatsomnia.top"
+                  target="_blank"
+                  class="project-link"
+                  >BeatSomnia app</a
+                >
+                (<span class="hl">beatsomnia.top</span>), a sleeping app.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section reveal" aria-label="Skills">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-list" role="list">
+            <div class="skill-chip" role="listitem">HTML</div>
+            <div class="skill-chip" role="listitem">CSS</div>
+            <div class="skill-chip" role="listitem">JavaScript</div>
+            <div class="skill-chip" role="listitem">TypeScript</div>
+            <div class="skill-chip" role="listitem">React</div>
+            <div class="skill-chip" role="listitem">React Native</div>
+            <div class="skill-chip" role="listitem">Git</div>
+            <div class="skill-chip" role="listitem">RevenueCat</div>
+            <div class="skill-chip" role="listitem">n8n</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section reveal">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="Images/projects.png"
+                  alt="BeatSomnia App"
+                  class="project-screenshot"
+                />
+              </div>
+              <div class="project-info">
+                <h3>BeatSomnia</h3>
+                <p>
+                  A comprehensive sleeping app designed to help users track and
+                  improve their sleep patterns. Features include sleep tracking,
+                  personalized recommendations, and soothing sounds to enhance
+                  sleep quality.
+                </p>
+                <a
+                  href="https://beatsomnia.top"
+                  target="_blank"
+                  class="project-button"
+                >
+                  Visit beatsomnia.top
+                </a>
+              </div>
+            </div>
+            <!-- iOS Demo Project -->
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="Images/projects.png"
+                  alt="Sleep Calculator iOS Demo"
+                  class="project-screenshot"
+                />
+              </div>
+              <div class="project-info">
+                <h3>Sleep Calculator (Demo in website)</h3>
+                <p>
+                  A lightweight demo of my current sleep calculator app,
+                  optimized for iOS. Explore the flow and core logic directly in
+                  your browser.
+                </p>
+                <a
+                  href="https://elegant-genie-4c21e7.netlify.app"
+                  target="_blank"
+                  class="project-button"
+                >
+                  Open iOS Web Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section reveal">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <div class="contact-icons-row">
+            <a
+              href="mailto:bogdanmariogg11@gmail.com"
+              class="icon-btn"
+              aria-label="Email"
+              id="email-btn"
+            >
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="#FFD700"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path
+                  d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"
+                />
+              </svg>
+              <span
+                id="email-feedback"
+                class="email-feedback"
+                style="display: none"
+                >Copied!</span
+              >
+            </a>
+            <a
+              href="https://github.com/MarioBogdan11"
+              target="_blank"
+              class="icon-btn"
+              aria-label="GitHub"
+              ><img src="Images/github.png" alt="GitHub"
+            /></a>
+            <a
+              href="https://instagram.com/bogdan_mario_"
+              target="_blank"
+              class="icon-btn"
+              aria-label="Instagram"
+              ><img src="Images/instagram.png" alt="Instagram"
+            /></a>
+            <a
+              href="https://www.facebook.com/Mario.Cristian.Bogdan"
+              target="_blank"
+              class="icon-btn"
+              aria-label="Facebook"
+              ><img src="Images/Facebook.png" alt="Facebook"
+            /></a>
+            <a
+              href="https://linkedin.com/in/ionita-bogdan-045835332/"
+              target="_blank"
+              class="icon-btn"
+              aria-label="LinkedIn"
+            >
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="#FFD700"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path
+                  d="M6.94 7.5A2.44 2.44 0 1 1 4.5 5.06 2.44 2.44 0 0 1 6.94 7.5ZM5 9h4v10H5zm6 0h3.8v1.37h.05A4.16 4.16 0 0 1 19 8.93c2.73 0 3.24 1.8 3.24 4.15V19h-4v-4.54c0-1.08 0-2.47-1.5-2.47s-1.73 1.17-1.73 2.39V19H11Z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://maps.google.com/?q=Bucharest%2C%20Romania"
+              target="_blank"
+              class="icon-btn"
+              aria-label="Romania"
+              ><img src="Images/romania.png" alt="Romania"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 Bogdan | Built with ❤️ and a lot of ☕</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
